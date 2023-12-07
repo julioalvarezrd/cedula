@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+}
+
+.cedulaCorrecta {
+    color: green;
+    font-weight: bold;
+}
+
+.cedulaIncorrecta {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Validación de Cédula</title>
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlazar el archivo de estilo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="mt-4 mb-4">Validación de Cédula</h1>
+    
+    <form id="cedulaForm">
+        <div class="form-group">
+            <label for="numeroCedula">Número de Cédula:</label>
+            <input type="text" class="form-control" id="numeroCedula" placeholder="Ingrese el número de cédula" required>
+        </div>
+        
+        <button type="button" class="btn btn-primary" onclick="validarCedula()">Validar</button>
+    </form>
+
+    <div id="resultado" class="mt-4"></div>
+</div>
+
+<!-- Incluir Bootstrap y jQuery (necesario para Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Enlazar el archivo de script JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
